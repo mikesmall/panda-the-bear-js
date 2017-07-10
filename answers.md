@@ -40,6 +40,10 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________
 6. Change the font family of the h1 to 'monospace'.
 
+        title = document.querySelector('h1')
+
+        title.style.fontFamily = 'monospace'
+
 ________________________________________________________________________________________________
 7. Find a way to select the round icons in the sidebar and then change their colour.
 
