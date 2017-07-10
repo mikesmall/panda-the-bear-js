@@ -22,4 +22,47 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________
 3. Select the heading that says "Employment" and change it to something else. (hint: use a descendant selector)
 
-        
+        var employmentTitle = document.querySelector('#employment h3.info-title');
+
+        employmentTitle.innerText = 'Something Else'
+
+________________________________________________________________________________________________
+4. Change the colour of the body.
+
+        document.body.style.background = '#223322';
+
+________________________________________________________________________________________________
+5. Change the colour used by the highlight class.
+
+        var highlight = document.querySelectorAll( '.highlight' );
+
+        highlight.forEach( function(light) { light.style.background = '#111222' });
+________________________________________________________________________________________________
+6. Change the font family of the h1 to 'monospace'.
+
+________________________________________________________________________________________________
+7. Find a way to select the round icons in the sidebar and then change their colour.
+
+________________________________________________________________________________________________
+8. Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself".
+
+________________________________________________________________________________________________
+9. Change the placeholder attribute of the message field to "state your business".
+
+________________________________________________________________________________________________
+10. Give the name field a "value" attribute of "your nemesis".
+    Reference: http://www.w3schools.com/tags/att_input_value.asp
+
+________________________________________________________________________________________________
+11. Change the value attribute of the email field to "koalathebear@gmail.com".
+
+________________________________________________________________________________________________
+12. Change the value of the submit button on the contact form to "En garde!".
+
+________________________________________________________________________________________________
+13. We should stop Koala from sending an email to Panda that they might regret! Find a way to disable the submit button (hint: familiarize yourself with the disabled attribute).
+    Reference: http://www.w3schools.com/tags/att_input_disabled.asp
+
+________________________________________________________________________________________________
+14. We should help Panda protect their privacy by clearing their personal details from the sidebar. You can use reset() to do this.
+    Reference: https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reset
