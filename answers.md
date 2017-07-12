@@ -15,7 +15,7 @@ ________________________________________________________________________________
     skyImage.src = 'http://i.imgur.com/V0BKDRg.jpg';
 
 ________________________________________________________________________________________________
-2. 
+2.
 # Select the heading that says "Panda the Bear" and change it to your own name.
 
     var pageTitle = document.querySelector( 'h1[class="highlight"]' );
@@ -55,6 +55,12 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________
 7.  
 # Find a way to select the round icons in the sidebar and then change their colour.
+
+    var roundIcons = document.querySelectorAll( '.action-icon-bg' );
+
+    for (var i=0; i < roundIcons.length; i++) {
+      roundIcons[i].style.backgroundColor = '#111222'
+    }
 
 ________________________________________________________________________________________________
 8.  
