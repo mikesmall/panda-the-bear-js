@@ -108,6 +108,10 @@ ________________________________________________________________________________
 # We should stop Koala from sending an email to Panda that they might regret! Find a way to disable the submit button (hint: familiarize yourself with the disabled attribute).
 #     Reference: http://www.w3schools.com/tags/att_input_disabled.asp
 
+    var submitButton = document.querySelector( 'input#submit' );
+
+    submitButton.disabled = 'disabled';
+
 ________________________________________________________________________________________________
 14.  
 # We should help Panda protect their privacy by clearing their personal details from the sidebar. You can use reset() to do this.
