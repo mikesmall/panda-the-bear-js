@@ -83,6 +83,10 @@ ________________________________________________________________________________
 # Give the name field a "value" attribute of "your nemesis".
 #     Reference: http://www.w3schools.com/tags/att_input_value.asp
 
+    var nameField = document.querySelector( 'input#name.contact-info' );
+
+    nameField.value = 'Your former nemesis'
+
 ________________________________________________________________________________________________
 11.  
 # Change the value attribute of the email field to "koalathebear@gmail.com".
