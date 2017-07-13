@@ -9,10 +9,18 @@
 ________________________________________________________________________________________________
 # That drawing of Pikachu is really cute. Let’s duplicate it using cloneNode() and insert it at the bottom of the .portfolio-container using insertAdjacentHTML() or appendChild().
 
+  var pikachu = document.querySelector("#right-image img[src]");
+
+  var pikachuClone = pikachu.cloneNode();
+
+  var portfolioContainer = document.querySelector(".portfolio-container");
+
+  portfolioContainer.appendChild(pikachuClone)
 
 ________________________________________________________________________________________________
 # Wow, that was so satisfying I think we should do it 10 more times. Use a for loop to help you do this.
 
+  for (i = 0; i < 10; i++) {portfolioContainer.appendChild(pikachu.cloneNode())};
 
 ________________________________________________________________________________________________
 # (follow further instructions in Alexa)
