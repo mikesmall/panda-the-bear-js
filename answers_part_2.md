@@ -30,10 +30,15 @@ ________________________________________________________________________________
 # After that, find a way of selecting the <ul> and append the new <li> to it. For bonus marks, apply the correct classes to these new elements of yours so the styling is consistent with the rest of the list items.
 
 # Provided code:
+
 var listItem = document.createElement('li');
+
 var leftSpan = document.createElement('span');
+
 var lastUpdated = document.createTextNode('Page last updated on');
+
 leftSpan.appendChild(lastUpdated);
+
 listItem.appendChild(leftSpan);
 
 # Solution:
