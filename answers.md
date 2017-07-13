@@ -66,6 +66,10 @@ ________________________________________________________________________________
 8.  
 # Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself".
 
+    var nameField = document.querySelector( 'input#name.contact-info' );
+
+    nameField.placeholder = 'Identify Thyself'
+
 ________________________________________________________________________________________________
 9.  
 # Change the placeholder attribute of the message field to "state your business".
