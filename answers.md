@@ -85,15 +85,23 @@ ________________________________________________________________________________
 
     var nameField = document.querySelector( 'input#name.contact-info' );
 
-    nameField.value = 'Your former nemesis'
+    nameField.value = 'Your former nemesis';
 
 ________________________________________________________________________________________________
 11.  
 # Change the value attribute of the email field to "koalathebear@gmail.com".
 
+    var emailField = document.querySelector( 'input#email.contact-info' );
+
+    emailField.value = 'koalathebear@gmail.com';
+
 ________________________________________________________________________________________________
 12.  
 # Change the value of the submit button on the contact form to "En garde!".
+
+    var submitButton = document.querySelector( 'input#submit' );
+
+    submitButton.value = 'Hello. My name is Inigo Montoya. You killed my father. Prepare to die.';
 
 ________________________________________________________________________________________________
 13.  
