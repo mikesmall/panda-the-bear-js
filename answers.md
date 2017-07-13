@@ -68,11 +68,15 @@ ________________________________________________________________________________
 
     var nameField = document.querySelector( 'input#name.contact-info' );
 
-    nameField.placeholder = 'Identify Thyself'
+    nameField.placeholder = 'Identify Thyself';
 
 ________________________________________________________________________________________________
 9.  
 # Change the placeholder attribute of the message field to "state your business".
+
+    var msgField = document.querySelector( 'textarea#message' );
+
+    msgField.placeholder = 'State Yr Business';
 
 ________________________________________________________________________________________________
 10.  
