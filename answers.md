@@ -116,3 +116,9 @@ ________________________________________________________________________________
 14.  
 # We should help Panda protect their privacy by clearing their personal details from the sidebar. You can use reset() to do this.
 #     Reference: https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reset
+
+    var bioInfo = document.querySelector('form');
+
+    reset = bioInfo.reset();
+
+# That 'reset' method doesn't do anything...
